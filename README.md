@@ -16,7 +16,7 @@ In the ipynb file there are instructions given for code blocks and their specifi
 
 ### 1. Extract frames from outside videos (road_camera): 
 
-This can be done by specifying the file path and running cell 2.
+This can be done by specifying the file path and running code cell 2.
 
 ### 2. Generate attention maps
 
@@ -29,7 +29,7 @@ For PoG estimation we use this github repo: https://github.com/VTTI/gaze-fixatio
 It could be tedious to setup for PoG Estimation, instead use this link to download the resulting CSV files (gaze_results): https://drive.google.com/file/d/1OsOn3hsKjK0lCAxpQXDq3kSnL-iCn7mM/view?usp=sharing
 
 
-### 3. Augment attention maps on outside frames (for Early fusion)
+### 3. Augment attention maps on outside frames (for Early Fusion)
 
 This can be done by running cell block 4
 
@@ -40,7 +40,7 @@ We train 3 models and parameters for them are defined in ipynb file.
 3D ResNet model. Run cell block 6 and 7. The code generates evaluation and accuracy for the best epoch and saves it.
 
 ### EF-3D ResNet
-3D ResNet model with Early Fusion. You have to change the video_path parameter in opt to your augmented dataset folder. Run cell block 8 and 9. 
+3D ResNet model with Early Fusion. You have to change the video_path parameter in opt to your augmented dataset folder. Run code cell block 8 and 9. 
 
 ### LF-3D ResNet
-3D ResNet model with Late Fusion. You have to change the video_path parameter in opt to your attention maps folder and gaze_path to outside frames folder. Run cell block 10 and 11.
+3D ResNet model with Late Fusion. You have to change the video_path parameter in opt to your attention maps folder and gaze_path to outside frames folder. Run code cell block 10 and 11.

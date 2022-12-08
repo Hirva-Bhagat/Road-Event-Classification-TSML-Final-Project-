@@ -14,11 +14,11 @@ Please download the dataset and extract it in a seperate folder.
 ## Dataset Preparation
 In the ipynb file there are instructions given for code blocks and their specific uses.
 
-###1. Extract frames from outside videos (road_camera): 
+### 1. Extract frames from outside videos (road_camera): 
 
 This can be done by specifying the file path and running cell 2.
 
-###2. Generate attention maps
+### 2. Generate attention maps
 
 This can be done by running cell block 3.
 
@@ -29,7 +29,7 @@ For PoG estimation we use this github repo: https://github.com/VTTI/gaze-fixatio
 It could be tedious to setup for PoG Estimation, instead use this link to download the resulting CSV files (gaze_results): https://drive.google.com/file/d/1OsOn3hsKjK0lCAxpQXDq3kSnL-iCn7mM/view?usp=sharing
 
 
-###3. Augment attention maps on outside frames (for Early fusion)
+### 3. Augment attention maps on outside frames (for Early fusion)
 
 This can be done by running cell block 4
 

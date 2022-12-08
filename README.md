@@ -1,8 +1,9 @@
 # Road-Event-Classification-TSML-Final-Project-
-Final project for TSML Course. oad event detection is associated with identifying lane changes\cite{scheel2019attention}, pedestrian interactions\cite{MIANI2022432}, maneuver events\cite{gao2022attention}, etc. from sensory or telemetry vehicle information. If treated as just a visual task it could be done in the form on event/action recognition. However, in order to understand driver's decision-making process, this definition could be modified. In order to correlate driver's attention with the road events, we propose to fuse driver's gaze information in the learning architecture. This project implements multi source learning by using augmentation and fusing external features to modify the learning process.oad event detection is associated with identifying lane changes\cite{scheel2019attention}, pedestrian interactions\cite{MIANI2022432}, maneuver events\cite{gao2022attention}, etc. from sensory or telemetry vehicle information. If treated as just a visual task it could be done in the form on event/action recognition. However, in order to understand driver's decision-making process, this definition could be modified. In order to correlate driver's attention with the road events, we propose to fuse driver's gaze information in the learning architecture. This project implements multi source learning by using augmentation and fusing external features to modify the learning process.
+Final project for TSML Course. oad event detection is associated with identifying lane changes, pedestrian interactions, maneuver events, etc. from sensory or telemetry vehicle information. If treated as just a visual task it could be done in the form on event/action recognition. However, in order to understand driver's decision-making process, this definition could be modified. In order to correlate driver's attention with the road events, we propose to fuse driver's gaze information in the learning architecture. This project implements multi source learning by using augmentation and fusing external features to modify the learning process.oad event detection is associated with identifying lane changes, pedestrian interactions, maneuver events, etc. from sensory or telemetry vehicle information. If treated as just a visual task it could be done in the form on event/action recognition. However, in order to understand driver's decision-making process, this definition could be modified. In order to correlate driver's attention with the road events, we propose to fuse driver's gaze information in the learning architecture. This project implements multi source learning by using augmentation and fusing external features to modify the learning process.
 
 ## Acknowledgements
-The code was modified from "https://github.com/yaorong0921/Driver-Intention-Prediction"
+The code was modified from: "https://github.com/yaorong0921/Driver-Intention-Prediction"
+
 This project is thankful to them
 
 ## Dataset
@@ -20,8 +21,11 @@ This can be done by specifying the file path and running cell 2.
 ###2. Generate attention maps
 
 This can be done by running cell block 3.
+
 For data preparation we need attention maps. These are generated based on PoG Estimation.
+
 For PoG estimation we use this github repo: https://github.com/VTTI/gaze-fixation-and-object-saliency
+
 It could be tedious to setup for PoG Estimation, instead use this link to download the resulting CSV files (gaze_results): https://drive.google.com/file/d/1OsOn3hsKjK0lCAxpQXDq3kSnL-iCn7mM/view?usp=sharing
 
 

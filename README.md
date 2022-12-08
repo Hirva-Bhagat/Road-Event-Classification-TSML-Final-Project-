@@ -4,7 +4,7 @@ Final project for TSML Course. oad event detection is associated with identifyin
 ## Acknowledgements
 The code was modified from: "https://github.com/yaorong0921/Driver-Intention-Prediction"
 
-This project is thankful to them
+This project is thankful to them.
 
 ## Dataset
 Dataset Brain4cars link: https://github.com/asheshjain399/ICCV2015_Brain4Cars
